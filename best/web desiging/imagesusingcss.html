@@ -1,0 +1,49 @@
+<html>
+    <title>images decoration method</title>
+<head>
+<style>
+h1{
+text-align:center;
+text-shadow:03px 03px 7px white,04px 04px 8px black;
+}
+img{
+height:300px;
+width:300px;
+margin:15px;
+}
+.type1{
+box-shadow:5px 5px 10px red;
+border-radius:20px 50px;
+border:1px solid black;
+}
+.type1:hover{
+opacity:0.7;
+border:5px solid green;
+border-left:15px solid green;
+border-radius:40px 20px;
+box-shadow:5px 5px 08px green, 15px 15px 12px coral;
+}
+.type2{
+box-shadow:5px 5px 10px blue;
+border-radius:50px 20px;
+border:1px solid blue;
+}
+.type2:hover{
+opacity:0.7;
+border:5px solid coral;
+border-right:15px solid coral;
+border-radius:40px 20px;
+box-shadow:5px 5px 08px green, 15px 15px 12px coral;
+}
+</style>
+</head>
+<body>
+<h1> Image Gallery </h1>
+<p> Move mouse over the image to see effects and click on the image to see it in full mode. </p>
+<a href="ram.png" target="_blank"><img class="type1" src="ram.png"> </a>
+<a href="narure.jpg" target="_blank"><img class="type2" src="nature.jpg"></a>
+<a href="ram.png" target="_blank"><img class="type1" src="ram.png"> </a>
+<a href="nature.jpg" target="_blank"><img class="type2" src="nature.jpg"> </a>
+<a href="ram.png" target="_blank"><img class="type1" src="ram.png"> </a>
+<a href="nature.jpg" target="_blank"><img class="type2" src="nature.jpg"> </a>
+</body></html>

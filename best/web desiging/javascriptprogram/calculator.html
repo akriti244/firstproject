@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java calculaor</title>
+    </head>
+    <body>
+        <script>
+            var n1=parseInt(prompt("enter any number"));
+            var n2=parseInt(prompt("enter any number"));
+            var operator=prompt("enter any character")
+            switch(operator){
+                case '+':
+                    var result=n1+n2;
+                    document.write("the result="+result);
+                    break;
+                    case '-':
+                        var result=n1-n2;
+                        document.write("the result="+result);
+                        break;
+                        case '/':
+                    var result=n1/n2;
+                    document.write("the result="+result);
+                    break;
+                    case '*':
+                    var result=n1*n2;
+                    document.write("the result="+result);
+                    break;
+                    default:
+                        document.write("invalid input");
+                        
+            }
+        </script>
+    </body>
+
+</html>
+

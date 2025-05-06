@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+*{
+margin:0;
+padding:0;
+}
+.dd
+{
+position: relative;
+background-color:bisque;
+padding:15px;
+width:100px;
+border-bottom:5px double black;
+}
+.dd:hover
+{
+background-color: coral;
+color: white;
+border-left:15px solid black; 
+}
+.ddcontents
+{
+position: absolute;
+display: none;
+margin:15px;
+}
+.dd:hover .ddcontents
+{
+display: block;
+}
+.menu
+{
+list-style-type: none;
+width:150px;
+}
+.menu li a
+{
+display: block;
+text-decoration: none;
+padding:10px;
+margin:2px;
+background-color: lightgreen;
+color: darkgreen;
+text-align: center;
+}
+.menu li a:hover
+{border:2px double blue;
+border-left:15px solid blue;
+background-color: lightblue;
+color: darkblue;
+}
+</style>
+</head>
+<body>
+<h1> Example of DropDown </h1><br>
+<p> Move Mouse over the text below to see the dropdown effects. </p><br><br>
+<div class="dd">   DropDown
+<div class="ddcontents">
+<ul class="menu">
+<li> <a href="first.html"> About Us </a> </li>
+<li> <a href="form.html"> Services </a> </li>
+<li> <a href="list.html"> Achievments </a> </li>
+<li> <a href="link.html"> Contact Us </a> </li>
+</ul>
+</div>
+</div>
+</body></html>

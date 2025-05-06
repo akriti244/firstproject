@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form filling</title>
+    </head>
+    <body bgcolor="pink">
+        <h1>Login Form</h1>
+        <form method="post">
+            <lable for="uid">Username</lable>
+            <input type="text" id="uid"><br><br>
+            <lable for ="pwd">Password </lable>
+            <input type="password" id="pwd"><br><br>
+            <lable>Select Your Gender</lable><br>
+            <input type="radio" name="gender" id="male">
+            <lable for="male">Male</lable>
+            <input type="radio" name="gender" id="female">
+            <lable for="female">Female</lable><br> <br>
+            <lable>Slect Your Expertice</lable><br>
+            <input type="checkbox" name="expertise" id="html">
+            <lable for ="html">HTML</lable>
+            <input type="checkbox" name="expertise" id="css">
+            <lable for ="css">Css</lable>
+            <input type="checkbox" name="expertise" id="php">
+            <lable for ="php">Php</lable><br><br>
+            <lable for="comment">
+                ENTER YOUR COMMENT
+            </lable><BR>
+                <textarea id="comment" rows=8 cols=25></textarea><br><br>
+                <lable for ="comment">Enter your Address</lable><br>
+                <textarea id="comment" rows=8 cols=25></textarea><br><br>
+                <lable for ="color">Slect Color:</lable>
+                <input type="color" id="color"><br><br>
+                <lable for="email">Email:</lable>
+                <input type="email" id="email"><input type="submit"><br><br>
+                <input type="button" value="Click here"><br><br>
+                <lable for="course">Select Course</lable>
+                <select id="course">
+                    <option>O level</option>
+                    <option>A level</option>
+                    <option>CCC</option>
+                </select><br><br><br>
+                <form autocomplete="on">
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <lable for="name">Name:
+                        <input id="name" type="text"><br>
+                        <lable for="fname">Father's Name:
+                        <input id="fname" type="text"><br>
+                        <lable for="dob">Date of Birth:
+                        <input id="dob" type="date"><br>
+                     </fieldset>
+                        <fieldset>
+                            <legend>Contact Details</legend>
+                            <lable for="mobile">Mobile Number:</lable>
+                            <input id="mobile" type="number"><br>
+                            <lable for="emailid">Email id:</lable>
+                            <input id="emailid" type="email"><br>
+                            <lable for="Whatn">Whatsapp Number:</lable>
+                            <input id="Whatn" type="number"><br> </fieldset>  <br><br>
+                            <lable for="courses">Slect Cources</lable>
+                            <select id="courses">
+                                <optgroup label="long term Courses">
+                                    <option value="olevel">Olevel</option>
+                                    <option value="Alevel">Alevel</option>
+                                </optgroup>
+                                <optgroup label="Short term Courses">
+                                    <option value="CCC">CCC</option>
+                                    <option value="c">Programming</option>
+                                    <option value="python">Programming in Python</option>
+                                    <option value="php">Programming in php with mysql</option>
+                                </optgroup>
+                            </select>
+                            
+
+                        </form>
+
+
+
+
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>

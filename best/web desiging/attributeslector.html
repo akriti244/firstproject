@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attributeslector</title>
+      <style>
+        input[type="text"]{
+            color:blue;
+            background-color:yellow;
+        }
+      </style>  
+    </head>
+    <body>
+        <form autocomplete="on">
+          <input type="text" placeholder="username" id="uid">
+          <input type="password" placeholder="password" autocomplete="off"><br><br><br>
+          <label>Login as:</label>
+          <input type="radio" name="loginas" id="fac" disabled><label for="fac">Faculty</label>
+          <input type="radio" checked id="stu" name="loginas"><label for="stu">Student</label><br><br><br>
+          <input type="submit" value="login">
+
+        </form>
+    </body>
+</html>

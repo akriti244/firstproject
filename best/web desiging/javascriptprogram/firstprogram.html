@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first program javascript</title>
+        <script type="text/javascript">
+            function validate(){
+                if(document.myform.name.value==""){
+                    alert("enter your name")
+                    document.myform.name.focus()
+                    return false
+                }
+                if(document.myform.address.value==""){
+                    alert("enter your address")
+                    document.myform.name.focus()
+                    return false
+                }
+                if(document.myform.dob.value==""){
+                    alert("enter your date of birth")
+                    document.myform.name.focus()
+                    return false
+                }   
+                if(document.myform.dob.value==""){
+
+                    alert("enter")
+                    document.myform.name.focus()
+                    return false
+                }           
+
+                
+
+                
+
+                
+                
+            }
+        </script>
+    </head>
+    <body>
+       <form action="value.php" name="myform" onsubmit="validate()">
+        Enter your name:<input type="text" name="name"><br><br>
+        Enter your Address:<input type="comment" name="address"><br><br>
+        Enter your dob:<input type="date" name="dob"><br><br>
+        Enter your number:<input type="number" name="number" maxlenght="10"><br><br><br><br>
+        <input type="submit" value="Submit">
+            <input type="reset">
+
+       </form>
+            
+        </script>
+    </body>
+</html>
